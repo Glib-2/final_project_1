@@ -1,10 +1,44 @@
 .dexter_title {
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 600px;
     font-style: normal;
+    font-size: 45px;
 }
 
-img{
+img {
     border-radius: 15px;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(78, 44, 110);
+}
+
+
+p {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.dexter_place{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 150px;
+}
+
+.dexter_image_2{
+    margin: 50px 50px 40px 1250px;
+    display: flex;
+}
+
+.dexter_section{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }

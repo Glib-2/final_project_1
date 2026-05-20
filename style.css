@@ -4,6 +4,12 @@
     font-weight: 600px;
     font-style: normal;
     font-size: 45px;
+    color: var(--text-color);
+}
+
+:root{
+    --header-color: rgb(73, 32, 131);
+    --text-color: rgb(30,100,240);
 }
 
 img {
@@ -13,7 +19,7 @@ img {
 body {
     margin: 0;
     box-sizing: border-box;
-    background-color: rgb(78, 44, 110);
+    background-color: var(--header-color);
 }
 
 
@@ -23,6 +29,7 @@ p {
     font-weight: 400px;
     font-style: normal;
     font-size: 20px;
+    color: var(--text-color);
 }
 
 .dexter_place{
@@ -42,3 +49,41 @@ p {
     justify-content: center;
     flex-direction: row;
 }
+
+.other_title{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600px;
+    font-style: normal;
+    font-size: 50px;
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+h3{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600px;
+    font-style: normal;
+    font-size: 35px;
+    color: var(--text-color);
+}
+
+.dexter_inside_2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 150px;
+}
+
+.pp{
+    width: 950px;
+    height: 80px;
+}
+
+.second{
+    margin: 0;
+}
+

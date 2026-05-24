@@ -40,15 +40,10 @@ p {
 }
 
 .dexter_image_2{
-    margin: 50px 50px 40px 1250px;
-    display: flex;
+    margin: 50px;
+    margin-left: 400px;
 }
 
-.dexter_section{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
 
 .other_title{
     font-family: "Playfair Display", serif;
@@ -71,19 +66,26 @@ h3{
     color: var(--text-color);
 }
 
-.dexter_inside_2{
+.one{
     display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
-    gap: 150px;
+    align-items: center;
+    gap: 0px;
+}
+
+.text{
+    margin-left: 100px;
+    
 }
 
 .pp{
-    width: 950px;
-    height: 80px;
+    width: 790px;
+    height: 50px;
 }
 
-.second{
-    margin: 0;
+.rating{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
 }
 

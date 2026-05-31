@@ -13,3 +13,51 @@
         document.body.classList.toggle("no-scroll");
     }
 })();
+
+(() => {
+    const refs = {
+        openModalBtn: document.querySelector("[data-modal-open2]"),
+        closeModalBtn: document.querySelector("[data-modal-close2]"),
+        modal: document.querySelector("[data-modal2]"),
+    };
+
+    refs.openModalBtn.addEventListener("click", toggleModal);
+    refs.closeModalBtn.addEventListener("click", toggleModal);
+
+    function toggleModal() {
+        refs.modal.classList.toggle("is-hidden2");
+        document.body.classList.toggle("no-scroll2");
+    }
+})();
+
+(() => {
+    const refs = {
+        openModalBtn: document.querySelector("[data-modal-open3]"),
+        closeModalBtn: document.querySelector("[data-modal-close3]"),
+        modal: document.querySelector("[data-modal3]"),
+    };
+
+    refs.openModalBtn.addEventListener("click", toggleModal);
+    refs.closeModalBtn.addEventListener("click", toggleModal);
+
+    function toggleModal() {
+        refs.modal.classList.toggle("is-hidden3");
+        document.body.classList.toggle("no-scroll3");
+    }
+})();
+
+(() => {
+    const refs = {
+        openModalBtn: document.querySelector("[data-modal-open4]"),
+        closeModalBtn: document.querySelector("[data-modal-close4]"),
+        modal: document.querySelector("[data-modal4]"),
+    };
+
+    refs.openModalBtn.addEventListener("click", toggleModal);
+    refs.closeModalBtn.addEventListener("click", toggleModal);
+
+    function toggleModal() {
+        refs.modal.classList.toggle("is-hidden4");
+        document.body.classList.toggle("no-scroll4");
+    }
+})();
